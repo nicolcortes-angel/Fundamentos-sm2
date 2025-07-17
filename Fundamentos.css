@@ -1,0 +1,76 @@
+/* CSS CON BUENAS PRACTICAS*/
+/* DEBEMOS ESTABLECER CONDICIONES GENERALES */
+
+/* 1. Importaciones - de tipografia  */
+
+/* 2. Definir las variables en css - las cuales son las estructuras que usted va saber que va a usar en tido el diseño de la pagian */
+
+/* 3. mejor constraste que hay de accesibilidad es amarillo y negro  */
+
+@import url('https://fonts.cdnfonts.com/css/ribeye-marrow');
+
+:root {
+    --color-fondo:#d7bde2;
+    --color-texto:#bb8fce ;
+    --color-enfasis1: #2b0041 ;
+    --color-enfasis: #9431bb;
+    --tamaño-titulos: 30px
+
+
+}
+
+* {
+/* MARGEN EXTERNA  */
+
+margin: 0;
+
+}
+/* ------------------------------------------------------------------------------------------ */
+
+body {
+
+    font-family: 'ribeye marrow', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-enfasis1)
+
+}
+
+/* ------------------------- HEADER ---------------------- */
+
+header {
+/* altura */
+    width: 100vw;
+
+    /* ancho */
+    height: 10vh;
+    background-color: var(--color-enfasis);
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.Lista {
+    display: flex;
+    gap: 30px;
+}
+
+.Imagen1 {
+    width: 50px;
+    height: 50px;
+   
+
+}
+
+
+/* ----------------------------- MAIN ------------------------- */
+
+
+
+
+/* ---------------------------------- FOOTER --------------------------- */
