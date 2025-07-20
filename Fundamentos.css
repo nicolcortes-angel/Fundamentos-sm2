@@ -31,7 +31,8 @@ body {
 
     font-family: 'ribeye marrow', sans-serif;
     background-color: var(--color-fondo);
-    color: var(--color-enfasis1)
+    color: var(--color-enfasis1);
+    overflow: hidden;
 
 }
 
@@ -39,11 +40,13 @@ body {
 
 header {
 /* altura */
-    width: 100vw;
+    width: 96vw;
 
     /* ancho */
     height: 10vh;
     background-color: var(--color-enfasis);
+    margin: 15px;
+    border-radius: 15px;
 
 }
 
@@ -67,6 +70,44 @@ nav {
 
 }
 
+a {
+    color: var(--color-enfasis1);
+    text-decoration: none;
+}
+
+
+main {
+    border: solid red;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    background-color: var(--color-texto);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+
+}
+
+.semantica {
+    width: 50%;
+    border-radius: 15px;
+}
 
 /* ----------------------------- MAIN ------------------------- */
 
